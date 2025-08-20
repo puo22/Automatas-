@@ -30,17 +30,19 @@ bash
 Copiar
 Editar
 ./AFD AFD.txt cadenas.txt
-🐍 Ejecución en Python
+
+# 🐍 Ejecución en Python
 También existe una versión del AFD implementada en Python.
 
-1. Ejecución
+##1. Ejecución
 Ejecuta el siguiente comando:
 
 bash
 Copiar
 Editar
 python3 AFD.py AFD.txt cadenas.txt
-📑 Formato de los archivos de entrada
+
+# 📑 Formato de los archivos de entrada
 🔹 AFD.txt (ejemplo)
 makefile
 Copiar
@@ -65,7 +67,7 @@ aaaa
 ab
 baba
 aaabb
-✅ Ejemplo de salida esperada
+# ✅ Ejemplo de salida esperada
 Al ejecutar el programa:
 
 bash
@@ -90,4 +92,3 @@ El autómata se puede modificar en AFD.txt.
 
 Las cadenas de prueba deben estar escritas una por línea en cadenas.txt.
 
-Compatible con Linux y macOS (para Windows se recomienda usar WSL o una máquina virtual Linux).
